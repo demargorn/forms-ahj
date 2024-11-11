@@ -10,7 +10,8 @@
       "build:dev": "webpack --mode development",
       "serve": "webpack serve",
       "test": "jest --passWithNoTests",
-      "coverage": "jest --coverage"
+      "coverage": "jest --coverage",
+      "e2e": "jest --testPathPattern=./e2e/ --runInBand"
    },
    "keywords": [],
    "author": "demargorn",
