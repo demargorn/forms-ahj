@@ -1,0 +1,66 @@
+body {
+   margin: 0;
+   padding: 0;
+   background: #145b77;
+}
+
+.container {
+   position: relative;
+   display: flex;
+   justify-content: center;
+   min-height: 100vh;
+}
+
+.popover {
+   position: absolute;
+   display: none;
+   height: 100px;
+   width: 180px;
+   border: 3px solid #770808;
+   border-radius: 15px;
+   background: #ffe5d9;
+   overflow: hidden;
+
+   font-size: 14.5px;
+   font-family: 'Antic', sans-serif;
+   color: #9d8189;
+   line-height: 1.1;
+}
+
+.popover-active {
+   display: block;
+}
+
+.header {
+   height: 30px;
+   background: #7fd114;
+   font-weight: bold;
+
+   font-size: 20px;
+   text-align: center;
+   line-height: 1.5;
+}
+
+.content {
+   padding-top: 10px;
+   padding-left: 5px;
+}
+
+.popover-button {
+   width: 300px;
+   height: 80px;
+   margin-top: 280px;
+   background: #119644;
+   color: #ffe5d9;
+   border: 10px solid #4c0eb1;
+   border-radius: 25px;
+   font-size: 40px;
+   font-family: 'Bungee Shade', sans-serif;
+   line-height: 0;
+   text-decoration: none;
+}
+
+.popover-button:active {
+   background: #ffe5d9;
+   color: #9d8189;
+}
