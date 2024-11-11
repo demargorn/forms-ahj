@@ -17,6 +17,7 @@ describe('popover', () => {
     await browser.close();
   });
 
+  // eslint-disable-next-line jest/expect-expect
   test('should show up in the correct position', async () => {
     await page.goto(baseUrl);
     await page.evaluate(() => {
