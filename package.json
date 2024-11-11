@@ -9,9 +9,8 @@
       "build": "webpack --mode production",
       "build:dev": "webpack --mode development",
       "serve": "webpack serve",
-      "test": "jest --passWithNoTests",
-      "coverage": "jest --coverage",
-      "e2e": "jest --testPathPattern=./e2e/ --runInBand"
+      "test": "jest",
+      "coverage": "jest --coverage"
    },
    "keywords": [],
    "author": "demargorn",
